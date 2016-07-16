@@ -1,0 +1,12 @@
+@media screen and (max-width: 1140px) {
+    body {
+font-size: 30px;
+    }
+    .sidebar {float: none;display: block;width: 100%;position: relative;background: #444;font-size: 14px;height: auto;}
+    .sidebar ul {margin: 0px;}
+    section.welcome {transform: inherit;
+    margin-top: 0px;}
+    div#content {
+        margin-left: 0px;
+    }
+}
