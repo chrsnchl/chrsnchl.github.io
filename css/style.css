@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+.sidebar {
+    background: url(../img/rocks.jpg);
+    height: 100%;
+    display: block;
+    left: 0px;
+    width: 24%;
+    transition: 0.5s;
+    text-align: center;
+    top: 0px;
+    position: fixed;
+    color: #FFF;
+}
+
+ul {
+    margin-top: 202px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+ul a {
+    color: #fff;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px;
+}
+
+
+div#content {
+    background: #fff;
+    display: block;
+    margin-left: 24%;
+}
+
+section {
+    margin: 0;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+    min-height: 420px;
+    position: relative;
+}
+
+section.welcome  {
+  background: linear-gradient(#4D4D4F, #3C4048);
+  color: #FFF;
+  text-align: center;
+  font-size: 2em;
+  transform: skewY(10deg);
+  margin-top: -80px;
+  padding-top: 120px;
+}
+
+
+
+.bullet {
+    float: left;
+    width: 33.333333%;
+    vertical-align: top;
+    padding: 13px 10px;
+    box-sizing: border-box;
+    background: #EAEAEA;
+    position: relative;
+    min-height: 248px;
+    border: 1px solid #000;
+    background: linear-gradient(20deg, #9DB1B1, #EDFFED);
+}
+
+.services {
+    text-align: center;
+}
+
+section.features {
+    background: #464658;
+    color: #FFF;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    font-size: 1.4em;
+}
+
+.contact .button {
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  color: #000;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 4px;
+}
+
