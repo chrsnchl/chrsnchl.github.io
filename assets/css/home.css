@@ -1,0 +1,78 @@
+.stickytopoff { position: static !important;}
+.unpadded {padding-top: 0px;}
+.hero_img {
+  height: 1000px;
+  background: url(../img/a/nicolai-patrick-14.jpg) no-repeat scroll center top;
+  background: url(../img/skull-bg.jpg) no-repeat scroll center top;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+div#jump-button {
+    width: 90px;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border: 4px solid #ccc;
+    color: #ccc;
+    border-radius: 80px;
+    height: 90px;
+    padding-left: 2px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    transition: 1s;
+    cursor: pointer;
+}
+div#jump-button:hover {
+background: #000;
+color: #0f0;
+border: 4px solid #0f0;
+transition: 1s;
+}
+
+.headline-hero {
+    width: 350px;
+    background: rgba(0, 60, 0, 0.7);
+    padding: 7px 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    margin: 10% auto;
+    color: #FFF;
+    transition: 2s;
+}
+.headline-hero.tweaked {
+    transform: perspective(5px) rotateX(1deg);
+}
+
+.container h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #5DBB0D;
+    font-family: 'Oswald', sans-serif;
+}
+
+.panel-block {
+text-align: center;
+margin: 20px 0;
+}
+.panel.mansion .img {
+    background: url(../img/resized/nicolai-patrick-84.jpg) no-repeat scroll center top;
+    height: 390px;
+    background-size: 259px;
+}
+
+.panel.maze .img {
+    background: url(../img/resized/nicolai-patrick-58.jpg) no-repeat scroll center top;
+    height: 390px;
+    background-size: 259px;
+}
+
+.panel {
+    width: 280px;
+    padding: 7px;
+display: inline-block;
+margin: 5px 20px;
+}
+

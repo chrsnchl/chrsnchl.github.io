@@ -1,0 +1,38 @@
+.slick-slide img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.haunt-nav .slick-slide {
+  height: 100px;
+}
+
+.haunt-gallery .slick-slide {
+  height: 400px;
+}
+
+.haunt-nav .slick-prev {
+    background: rgba(0, 0, 0, 0.6);
+    left: 10px;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 10px #fff inset;
+    font-size: 16px;
+    top: 0px;
+}
+
+.haunt-nav .slick-next {
+    background: rgba(0, 0, 0, 0.6);
+    right: 10px;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 10px #fff inset;
+    font-size: 16px;
+    top: 0px;
+}

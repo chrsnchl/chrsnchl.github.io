@@ -1,0 +1,30 @@
+.ticket-section {
+    text-align: center;
+}
+
+.ticket {
+    background: url(../img/tickets.png) no-repeat scroll center top;
+    height: 203px;
+    width: 430px;
+    display: inline-block;
+    color: #921414;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-right: 14px;
+    font-weight: bold;
+}
+
+/*Calendar section*/
+/* calendar */
+table.calendar		{border-left:1px solid #999;margin: 0 auto;}
+tr.calendar-row	{  }
+td.calendar-day	{min-height:80px;font-size:11px;position:relative;background: #333;color: #ff0;text-align: center;font-weight: bold;} * html div.calendar-day { height:80px; }
+td.calendar-day:hover	{background: #500;}
+td.calendar-day-np	{background: #000;min-height:80px;} * html div.calendar-day-np { height:80px; }
+td.calendar-day-head {background: #000;font-weight:bold;text-align:center;width:120px;padding:5px;border-bottom:1px solid #999;border-top:1px solid #999;border-right:1px solid #999;color: #ff0;}
+div.day-number		{ background:#999; padding:5px; color:#fff; font-weight:bold; float:right; margin:-5px -5px 0 0; width:20px; text-align:center; }
+/* shared */
+td.calendar-day, td.calendar-day-np { width:120px; padding:5px; border-bottom:1px solid #999; border-right:1px solid #999; }
+
+
+

@@ -1,0 +1,81 @@
+.medula {font-family: 'Medula One', cursive;}
+
+
+body {
+    font-family: 'Lora', serif;
+    color: #888;
+    background: url(../img/rpt-wall.jpg);
+    padding-top: 70px;
+    overflow-x: hidden;
+}
+.navbar {
+  min-height: 51px;
+  background: #000;
+}
+
+.page-headline {
+  text-align: center;
+}
+.page-headline p {color: #fff;}
+.page-headline a {color: #fff;
+text-decoration: underline;
+}
+.container h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #5DBB0D;
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    color: #FF8383;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+.card {border-radius: 1px;border-left: 8px solid #71D86A;padding: 10px;background: #424242;margin: 10px 0;box-shadow: 0 0 10px #000;}
+.card h2 {font-family: 'Medula One', cursive; font-size: 43px;}
+
+
+.navbar-brand>img {
+    height: 49px;
+}
+
+.navbar-brand {
+    padding: 0px 10px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: #335433;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.jumbotron {
+    background: #000;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background: #335433;
+    color: #FFF;
+}
+
+.dropdown-menu {
+    background: #050;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background: #000;
+}
+
+.dropdown-menu>li>a {
+    color: #FFF;
+}
+
+
+
